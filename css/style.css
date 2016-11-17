@@ -9,14 +9,16 @@ body {
     width: 776px;
     margin: 0 212px;
     border-bottom: 1px solid grey;
+    float: left;
 }
 .logo {
 	margin: 41px 0;
 }
 .login {
+	margin-left: 590px;
     width: 158px;
     height: 22px;
-    padding: 7px 25px;
+    padding: 7px 15px 5px;
     background: white;
     border-radius: 0 0 30px 30px;
 }
@@ -24,12 +26,54 @@ body {
 	font-size: 11px;
 }
 .reg {
-	border-right: 2px solid grey;
-    float: left;
-    padding: 0 15px;    
+    float: left;    
     text-decoration: none;
+    border-right: 1px solid grey;
+    padding: 0 15px;
+    
 }
 .in {
 	float: right;
     text-decoration: none;
 }
+.it {
+    margin: 38px 29px 0 0;
+    float: right;
+	color: #646464;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.tab {
+	margin: 0 27px 0 350px;
+    
+}
+.tab ul {
+    list-style: none; 
+    
+}
+.tab ul li{
+    float: left;
+    font-size: 16px;
+    margin-right: -1px;    
+}
+.tab ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 18px;
+}
+.main {
+	border: 1px solid gray;
+    border-bottom-color: transparent;
+    border-radius: 30px 0 0 0;
+}
+.goal {
+    border: 1px solid gray;
+	
+}
+.comp {
+	border: 1px solid gray;
+    border-radius:  0 30px 0 0;
+}
+
