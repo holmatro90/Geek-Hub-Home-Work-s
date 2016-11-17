@@ -1,3 +1,35 @@
+body {
+    background-color: white;
+    background-image: linear-gradient(#ced8d8,transparent);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
 .head {
-    background-image: url(img/layer-27.png)
+    width: 776px;
+    margin: 0 212px;
+    border-bottom: 1px solid grey;
+}
+.logo {
+	margin: 41px 0;
+}
+.login {
+    width: 158px;
+    height: 22px;
+    padding: 7px 25px;
+    background: white;
+    border-radius: 0 0 30px 30px;
+}
+.reg .in {
+	font-size: 11px;
+}
+.reg {
+	border-right: 2px solid grey;
+    float: left;
+    padding: 0 15px;    
+    text-decoration: none;
+}
+.in {
+	float: right;
+    text-decoration: none;
 }
