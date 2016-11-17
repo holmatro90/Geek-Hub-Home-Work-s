@@ -23,18 +23,25 @@ body {
     border-radius: 0 0 30px 30px;
 }
 .reg .in {
-	font-size: 11px;
 }
 .reg {
     float: left;    
     text-decoration: none;
     border-right: 1px solid grey;
-    padding: 0 15px;
+    padding: 0 10px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #747474;
+    margin: 0 0 0 10px;
     
 }
 .in {
 	float: right;
     text-decoration: none;
+    font-family: Arial;
+    font-size: 11px;
+    color: #02a4fa;
+    margin: 0 30px 0 0;
 }
 .it {
     margin: 38px 29px 0 0;
@@ -47,6 +54,8 @@ body {
 }
 .tab {
 	margin: 0 27px 0 350px;
+    width: 399px;
+    height: 45px;
     
 }
 .tab ul {
@@ -56,24 +65,37 @@ body {
 .tab ul li{
     float: left;
     font-size: 16px;
-    margin-right: -1px;    
+    margin: 0 -1px -1px 0;
 }
 .tab ul li a{
     display: block;
     text-decoration: none;
-    padding: 18px;
+    padding: 13px;
 }
 .main {
 	border: 1px solid gray;
-    border-bottom-color: transparent;
+    border-bottom-color: #e8eced;
     border-radius: 30px 0 0 0;
+    background-image: linear-gradient(#fff,#e8eced);
+    
 }
 .goal {
     border: 1px solid gray;
+    background-image: linear-gradient(#e5eaeb,#d9d7d5);
 	
 }
 .comp {
 	border: 1px solid gray;
     border-radius:  0 30px 0 0;
+    background-image: linear-gradient(#e5eaeb,#d9d7d5);
 }
-
+.main a {
+	color: #45b8fb;
+    font-family: Arial;
+    font-size: 16px;
+}
+.goal a, .comp a {
+	color: #939598;
+    font-family: Arial;
+    font-size: 16px;
+}
