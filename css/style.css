@@ -271,9 +271,15 @@ body {
 .tabl td{
 	padding: 7px;
 }
-.tabl a {
+.d a {
 	text-decoration: none;
     color: #03a7fe;
+}
+.f a, .g a, .h a{	
+	text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
 }
 
 .a, .b, .c, .d {
@@ -285,4 +291,8 @@ body {
 }
 .f, .h {
     background-color: #eceff1;
+}
+i {
+    margin-right: 5px;
+    color: #6c6c6c;
 }
