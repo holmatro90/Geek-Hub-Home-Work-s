@@ -229,7 +229,7 @@ body {
 .maine {
 	float: left;
     width: 528px;
-    margin: 64px 212px 0 20px;
+    margin: 64px 212px 111px 20px;
 }
 .maine h2 {
     color: #010101;
@@ -300,4 +300,39 @@ body {
 i {
     margin-right: 5px;
     color: #6c6c6c;
+}
+.foot {
+    float: left;
+	border-top: 1px solid #b5b5b7;
+    width: 776px;
+    height: 61px;
+    margin: 0 212px 0 212px;
+}
+.block {
+    background-color: #d9dada;
+	float: right;
+    width: 503px;
+    height: 30px;
+    margin: 0 25px 0 248px;
+    border-radius: 0 0 20px 20px;
+}
+.copyright {
+    margin: 10px 10px 0 12px;
+	float: left;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 400;
+    color: #78797b;
+}
+.imgl {
+    margin: 7px 12px 9px 0;
+	float: right;
+}
+.imgl img {
+    width: 26px;
+    height: 14px;
+}
+.copyright a {
+    text-decoration: none;
+    color: black;
 }
