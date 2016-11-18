@@ -105,13 +105,17 @@ body {
 	float: left;
     width: 230px;
     margin: 25px 0 0 210px;
+    padding: 0;
 }
 .categ {
 	text-decoration: none;
+}
+.categ h3 {	
     color: #03a7fe;
     font-family: Arial;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: 33px;
 }
 .side ul {
 	list-style: none;
@@ -148,7 +152,7 @@ body {
     height: 33px;
     padding: 4px 0 5px 0;
     border: 3px solid #ffa421;
-    border-radius: 30px;
+    border-radius: 40px;
     background-color: white;
     font-size: 21px;
     font-weight: 500;
@@ -223,5 +227,62 @@ body {
     margin: 16px 59px 0 61px;
 }
 .maine {
-	float: left
+	float: left;
+    width: 528px;
+    margin: 64px 212px 0 20px;
+}
+.maine h2 {
+    color: #010101;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+	
+}
+.vis {
+	width: 528px;
+    border-top: 1px solid #00a7fb;
+    margin-top: -10px;
+}
+.ing img {
+	margin: 17px 20px 0 11px;
+    float: left;
+}
+.link {
+	text-decoration: none;
+}
+.link h3{	
+    color: #03a7fe;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;    
+    margin: 15px 0 0 20px;
+}
+.tabl {
+	width: 393px;
+    height: 228px;
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    border-collapse: collapse;
+}
+.tabl td{
+	padding: 7px;
+}
+.tabl a {
+	text-decoration: none;
+    color: #03a7fe;
+}
+
+.a, .b, .c, .d {
+    border-bottom: 2px solid white;
+	
+}
+.a, .b, .c, .d, .e, .g, .i {
+    background-color: #dfe5e6;
+}
+.f, .h {
+    background-color: #eceff1;
 }
