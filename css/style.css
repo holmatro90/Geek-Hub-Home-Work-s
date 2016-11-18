@@ -244,6 +244,11 @@ body {
     border-top: 1px solid #00a7fb;
     margin-top: -10px;
 }
+.vist {
+	width: 528px;
+    border-top: 1px solid #00a7fb;
+    margin-top: 18px;
+}
 .ing img {
 	margin: 17px 20px 0 11px;
     float: left;
