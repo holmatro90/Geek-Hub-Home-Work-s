@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Helios";
+    src: url("../fonts/HeliosRegular/HeliosRegular.eot");
+    src: url("../fonts/HeliosRegular/HeliosRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HeliosRegular/HeliosRegular.woff") format("woff"),
+    url("../fonts/HeliosRegular/HeliosRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 body {
     background-color: white;
     background-image: linear-gradient(#ced8d8,transparent);
@@ -49,9 +58,9 @@ body {
     margin: 38px 29px 0 0;
     float: right;
 	color: #646464;
-    font-family: "Arial";
+    font-family: "Helios";
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 33px;
 }
 .tab {
@@ -288,7 +297,7 @@ body {
 }
 
 .a, .b, .c, .d {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 	
 }
 .a, .b, .c, .d, .e, .g, .i {
