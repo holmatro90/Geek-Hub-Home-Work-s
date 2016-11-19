@@ -170,6 +170,9 @@ body {
     font-family: Arial;
     margin-left: 65px;
 }
+.baners {
+	margin-top: 30px;
+}
 .moc {
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
