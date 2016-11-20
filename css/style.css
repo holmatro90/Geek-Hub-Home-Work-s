@@ -8,17 +8,17 @@
     font-weight: normal;
 }
 body {
-    background-color: white;
+    background-color: white;/*а одной строкой никак?*/
     background-image: linear-gradient(#ced8d8,transparent);
     background-repeat: no-repeat;
     background-size: 100% 50%;
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 1200px;/*зачем*/
 }
 .head {
     width: 776px;
-    margin: 0 212px;
+    margin: 0 212px; /*зачем такие большие значения?*/
     border-bottom: 1px solid grey;
     float: left;
 }
@@ -28,13 +28,13 @@ body {
 .login {
 	margin-left: 590px;
     width: 158px;
-    height: 22px;
+    height: 22px; /*высота?*/
     padding: 7px 15px 5px;
     background: white;
     border-radius: 0 0 30px 30px;
 }
 .reg .in {
-}
+} /*зачем пустое?*/
 .reg {
     float: left;    
     text-decoration: none;
@@ -60,11 +60,11 @@ body {
 	color: #646464;
     font-family: "Helios";
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 600; /*400*/
     line-height: 33px;
 }
 .tab {
-	margin: 0 27px 0 350px;
+	margin: 0 27px 0 350px; /*350?*/
     width: 399px;
     height: 45px;
     
@@ -121,7 +121,7 @@ body {
 }
 .categ h3 {	
     color: #03a7fe;
-    font-family: Arial;
+    font-family: Arial;/*А одной строкой?*/
     font-size: 20px;
     font-weight: 400;
     line-height: 33px;
@@ -189,7 +189,7 @@ body {
     margin: 30px 50px 0 56px;
 }
 .fpro {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);/*группируем элементы с одинаковыми свойствами*/
     filter: grayscale(100%);
     transition: 1s;
     width: 116px;
